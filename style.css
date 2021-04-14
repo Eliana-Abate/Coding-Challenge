@@ -1,0 +1,75 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenitore {
+  width: 725px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 2%;
+  border-radius: 20px;
+  padding: 5%
+}
+
+
+/*STILE INTESTAZIONE + BUTTON AREA*/
+header, nav {
+  text-align: center;
+}
+
+#logo-lim {
+  margin-top: -5px;
+  width: 25%
+}
+
+#titolo1 {
+  color: #00dd00;
+  margin-top: -3px;
+  margin-bottom: 3px;
+}
+
+.sfondo {
+  background-color: #00dd00;
+  padding: 10px;
+}
+
+
+/*STILE ELENCO MONOPATTINI*/
+.elenco {
+  margin-top: 10px;
+  line-height: 3px;
+  font-size: 13px;
+}
+
+#veicolo {
+  display: inline-block;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.address:before {
+content: '\21A6';
+}
+
+.orange-battery, .green-battery, .red-battery {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.orange-battery {
+  width:35%;
+  background-color: #f5b453;
+}
+
+.green-battery {
+  width: 60%;
+  background-color: #1ec31e;
+}
+
+.red-battery {
+  width: 15%;
+  background-color: #be4141;
+}
